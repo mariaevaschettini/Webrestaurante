@@ -45,6 +45,7 @@ section form{
 }
 form h3{
     padding: 20px 0 25px 0;
+    font-size: 20px;
 }
 .register{
     display: block;
@@ -58,6 +59,12 @@ form h3{
 button{
     display: block;
     margin-top: 30px; 
-    width: 200px;
-    border: 1px solid gray;
+    width: 220px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+input label{
+padding-right: 30px;
 }
