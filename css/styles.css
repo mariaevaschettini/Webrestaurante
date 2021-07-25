@@ -14,11 +14,11 @@ header img, ul, li{
 header img{
     width: 300px;
     height: 300px;
-    padding-left: 100px;
+    padding-left: 80px;
 }
 header ul {
     float: right;
-    padding-right: 100px;
+    padding-right: 80px;
     padding-top: 130px;
 }
 header ul li{
@@ -32,16 +32,22 @@ header ul li:hover{
     cursor: pointer;
     border-bottom: white solid 5px;
 }
+
+/*-----------------------------------main-----------------------------------*/
+
 section img{
     display: inline-block;
-    width: 600px;
-    height: 600px;
+    width: 550px;
+    height: 550px;
     padding-bottom: 100px;
 }
 section form{
     display:inline-block;
     position: absolute;
-    padding-top: 150px;
+    width: 250px;
+    margin: 60px 100px 0 0;
+    padding: 10px 50px 30px 50px;
+    box-shadow: 2px 1px 15px black;
 }
 form h3{
     padding: 20px 0 25px 0;
@@ -52,19 +58,33 @@ form h3{
     width: 250px;
     margin: 10px 0 25px 0;
     font-size: 18px;
-    border: 1px solid gray;
-    background: white;
-    opacity: 0.1;
+    border: 1px solid white;
+    border-radius: 3px;
+    background: transparent 0.1;
+    opacity: 0.8;
 }
+.register::placeholder { 
+    color: white;
+    padding-left: 4px;
+}
+:focus::-webkit-input-placeholder{
+    color:transparent;
+}
+form select{
+    border: 2px solid rgb(238, 238, 238);
+    border-radius: 3px;
+    width: 45px;
+    height: 30px;
+}
+label{
+    padding: 0 26px 0 8px;
+    }
 button{
     display: block;
-    margin-top: 30px; 
-    width: 220px;
+    width: 250px;
     height: 30px;
+    margin-top: 30px;
     border: 1px solid white;
     border-radius: 5px;
     font-size: 18px;
-}
-input label{
-padding-right: 30px;
 }
